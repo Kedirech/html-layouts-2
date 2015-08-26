@@ -1,0 +1,50 @@
+header{
+  background-color:#333333;
+  padding:15px 0px
+}
+
+header ul{
+  margin:0px;
+  margin-left:-15px;
+  list-style:none;
+}
+
+header li{
+  color:white;
+  display:inline;
+  margin-right:20px;
+}
+
+body, html{
+  height:100%;
+  margin:0px;
+  padding:0px;
+}
+
+div.main-page {
+  max-width: 960px;
+  width:95%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+}
+
+div.main-page > *{
+  flex:1;
+  margin:5px 20px
+}
+
+h1{
+  color:#434343;
+  font-size:35px;
+}
+
+aside img{
+  width:100%;
+  margin: 10px 0%;
+}
+
+footer{
+  height:100px;
+  background-color:#333333;
+}
